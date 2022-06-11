@@ -1,0 +1,497 @@
+@font-face {
+    src: url(../fonts/inter/Inter.ttf);
+    font-family: 'Inter';
+}
+
+/*-------------------------Navigation--------------------------*/
+
+.navigation {
+    margin-left: 94px;
+    margin-right: 93px;
+    height: 85px;
+}
+
+.navigation__logo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px; 
+}
+
+.search-form__input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;  
+    color: #718096; 
+}
+
+.link__item a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;        
+}
+
+.navigation, .navigation__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .navigation__link {
+    padding-left: 0;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.navigation .link__item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.link__item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.search-form__input {
+    border: none;
+}
+
+.navigation__form {
+    padding-left: 150px;
+}
+
+/*-------------------------Shared--------------------------*/
+
+.page1, .page3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link__item, .post__item {
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black; 
+}
+a:active {
+    color: black; 
+}
+
+/*-------------------------Page1--------------------------*/
+
+.page1 figure {
+    margin: 0px 0px;
+    padding-top: 70px;
+}
+
+.page1 figure a img {
+    width: 476px;
+    height: 323px;
+}
+
+.page1__text {
+    display: block;
+    padding-left: 50px;
+    padding-top: 131px;
+}
+
+.page1__text img {
+    width: 70px;
+    height: 67px;
+}
+
+.page1__text h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    margin-top: 0px;
+    margin-bottom: 0px;  
+}
+
+.page1__text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4A5568;
+    margin-top: 19px;
+}
+
+.page1 {
+    margin-bottom: 39px;
+    height: 467px;
+    background: #FBFBFB;
+}
+
+/*-------------------------Main--------------------------*/
+
+main {
+    margin-left: 94px;
+    margin-right: 93px;
+}
+
+.post__item figure {
+    margin: 0px 0px;
+}
+
+.post__item figure img {
+    width: 100%;
+}
+
+.post__item div {
+    position: relative;
+    padding-left: 17px;
+    padding-right: 25px;
+}
+
+.post__item p {
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+.post__item:first-of-type {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 243px;
+    margin-bottom: 43px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border-radius: 5px;    
+}
+
+.post__item:first-of-type div {
+    padding-left: 52.27px;
+    padding-right: 77.4px;
+}
+
+.main__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.post__item:first-of-type a {
+    right: 77.4px;
+}
+
+.post__item a {
+    position: absolute;
+    right: 25px;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.post__item:first-of-type figure img {
+    width: 433.24px;
+    height: 243px;
+}
+
+.post__item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 300px;
+    height: 382px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+    border-radius: 5px;
+}
+
+.post__item p, .post__item time {
+    color: #718096;  
+}
+
+.post__item:first-of-type h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;    
+}
+
+/*-------------------------Page3--------------------------*/
+
+.page3 {
+    margin-top: 43px;
+    background: #F7FAFC;
+}
+
+.page3 div {
+    padding-left: 63px;
+    padding-right: 65px;
+    position: relative;
+}
+
+.page3 figure {
+    margin: 0px 0px;
+}
+
+.page3 a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold; 
+    position: absolute;
+    right: 65px;
+}
+
+.page3 figure {
+    width: 525px;
+    height: 500px;
+}
+
+.page3 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.page3 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+    margin-top: 24px;
+    margin-bottom: 31px;
+}
+
+.page3 time {
+    color: #718096;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*-------------------------Button--------------------------*/
+
+.main__button {
+    position: relative;
+    width: 100%;
+    height: 37px;
+    margin-top: 40px;
+    margin-bottom: 52px;
+}
+
+.main__button button {
+    width: 122px;
+    height: 37px;
+    background: #6B46C1;
+    border-radius: 5px;    
+    position: absolute;
+    right: 0px;
+}
+
+.main__button button a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;      
+}
+
+.main__button button img {
+    width: 16.67px;
+    height: 16.67px;
+}
+
+/*-------------------------Line--------------------------*/
+
+hr {
+    border: 1px solid #E8E8E8;
+}
+
+/*-------------------------Footer--------------------------*/
+
+.footer {
+    height: 121px;
+}
+
+.footer .navigation {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.footer {
+    display: flex;
+    display: row;
+    justify-content: space-between;
+    margin-right: 93px;
+    margin-top: 29px;
+    margin-left: 94px;
+    margin-right: 93px;
+    align-items: flex-start;
+}
+
+.footer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer .navigation__link {
+    padding-left: 0;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.footer .link__item {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*-------------------------Details--------------------------*/
+
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail__img {
+    margin: 0 0;
+}
+
+.detail__img img {
+    width: 973px;
+    height: 380.37px;
+} 
+
+.detail h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;  
+    color: #2D3748;    
+}
+
+.detail h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;    
+}
+
+.detail time {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #718096;    
+}
+
+.detail .section-first h2, .detail .section-first time {
+    display: inline-block;
+}
+
+.detail section {
+    width: 765px;
+}
+
+.detail section p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;    
+}
+
+.detail section h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;  
+    color: #2D3748;      
+}
+
+.detail .section-two h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;     
+}
+
+.detail section:last-of-type {
+    margin-bottom: 58px;
+}
+
+.detail p:first-of-type {
+    margin-top: 37.5px;
+}
+
+.detail hr:first-of-type {
+    margin-top: 30.5px;
+}
+
+.detail .section-first h2 {
+    margin-right: 10px;
+}
+
+.detail h1 {
+    margin-bottom: 19px;
+}
+
+/*-------------------------Details button--------------------------*/
+
+.detail__button {
+    position: relative;
+    width: 100%;
+}
+
+.detail__button button {
+    border: none;
+    background: white;
+    position: absolute;
+    right: 75px;
+    bottom: 109px;
+}
+
